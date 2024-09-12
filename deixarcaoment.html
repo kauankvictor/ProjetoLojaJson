@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentários sobre Produtos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="deixarcoment.css">
+   
+</head>
+<body>
+    <header>
+        <h1>Comentários sobre Produtos</h1>
+    </header>
+    <div class="container">
+        <div class="comment">
+            <div class="comment-content">
+                <p><span class="comment-author">Usuário 1:</span> Excelente produto! Recomendo muito. Ótimo custo-benefício.</p>
+                <p class="rating">★★★★★</p>
+            </div>
+        </div>
+        <div class="comment">
+            <div class="comment-content">
+                <p><span class="comment-author">Usuário 2:</span> Este produto superou minhas expectativas. Muito satisfeito com a compra.</p>
+                <p class="rating">★★★★☆</p>
+            </div>
+        </div>
+        <div class="comment">
+            <div class="comment-content">
+                <p><span class="comment-author">Usuário 3:</span> Produto de qualidade. Entrega rápida e eficiente. Compraria novamente.</p>
+                <p class="rating">★★★★★</p>
+            </div>
+        </div>
+        <div class="comment-form">
+            <h2>Deixe seu comentário</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="nome">Seu Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="avaliacao">Sua Avaliação:</label>
+                    <select id="avaliacao" name="avaliacao" required>
+                        <option value="">Selecione...</option>
+                        <option value="5">★★★★★</option>
+                        <option value="4">★★★★☆</option>
+                        <option value="3">★★★☆☆</option>
+                        <option value="2">★★☆☆☆</option>
+                        <option value="1">★☆☆☆☆</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="comentario">Seu Comentário:</label>
+                    <textarea id="comentario" name="comentario" rows="4" required></textarea>
+                </div>
+                <input type="submit" value="Publicar">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+
+

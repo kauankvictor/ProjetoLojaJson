@@ -1,0 +1,39 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7n1btueVkAiSfuNCsD67bsMJcsBJoWF_fDA&s",
+            "titulo": "S24 ULTRA",
+            "descricao": "Samsung Galaxy S24 ULTRA",
+            "preco": 5999.99
+        },
+        {
+            "id": 2,
+            "imagem": "https://cellshop.com/media/catalog/product/2/9/2944463_1_1.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=80&width=80&canvas=80:80",
+            "titulo": "IPHONE 11",
+            "descricao": "Apple iPhone 11",
+            "preco": 4999.99
+        },
+        {
+            "id": 3,
+            "imagem": "https://cdn.awsli.com.br/800x800/449/449006/produto/106604440/7f753966ff.jpg",
+            "titulo": "XIAOMI REDMI 9",
+            "descricao": "Xiaomi Redmi 9",
+            "preco": 1299.99
+        },
+        {
+            "id": 4,
+            "imagem": "https://a-static.mlcdn.com.br/450x450/smartphone-motorola-moto-g6-play-32gb-ouro-4g-3gb-ram-tela-5-7-cam-13mp-cam-selfie-8mp/magazineluiza/155539300/8ebdb9b8d22dccd4921a1695c5ce7885.jpg",
+            "titulo": "MOTOROLA MOTO G6 PLAY",
+            "descricao": "Motorola Moto G6 Play",
+            "preco": 899.99
+        },
+        {
+            "id": 5,
+            "imagem": "https://lab.zactec.com.br/wp-content/uploads/2023/09/smartphone-samsung-galaxy-a71-1chip-128gb-azul-sm-a715fzbl.jpg",
+            "titulo": "A71 SAMSUNG",
+            "descricao": "Samsung Galaxy A71",
+            "preco": 2499.99
+        }
+    ]
+}
